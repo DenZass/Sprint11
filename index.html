@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="style.8c5460bb1148450ba59d.css?9ce4b3a450e3d1950fee">
+</head>
+<body>
+    <div class="root">
+        <header class="header root__section">
+          <img src="aa3e7ad2f93bdac240553c341c96a886.svg" alt="mesto logo" class="logo">
+        </header>
+        <div class="profile root__section">
+          <div class="user-info">
+            <div class="user-info__photo"></div>
+            <div class="user-info__data">
+              <h1 class="user-info__name">Jaques Causteau</h1>
+              <p class="user-info__job">Sailor, Researcher</p>
+              <button class="button__edit">Edit</button>
+            </div>
+            <button class="button user-info__button">+</button>
+          </div>
+        </div>
+        <div class="places-list root__section">
+    
+          <!-- Пример вёрстки карточки: -->
+    
+          <!-- конец примера. -->
+    
+        </div>
+        <div class="popup">
+          <div class="popup__content">
+            <img  src="41450a58b889772276e7ab296ea75877.svg" alt="" class="popup__close">
+            <h3 class="popup__title">Новое место</h3>
+            <form class="popup__form" name="new">
+                <input type="text" name="name" class="popup__input popup__input_type_name" placeholder="Название">
+                <input type="text" name="link" class="popup__input popup__input_type_link-url" placeholder="Ссылка на картинку">
+                <button type class="button popup__button new-place__popup_button"  >+</button> <!---disabled  onclick="return false"--->
+            </form>
+          </div>
+        </div>
+        <div class="popup user__popup">
+            <div class="popup__content">
+              <img src="41450a58b889772276e7ab296ea75877.svg" alt="" class="popup__close user__popup_close">
+              <h3 class="popup__title">Редактировать профиль</h3>
+              <form class="popup__form popup__form_user-new" name="new_profile">
+                  <input type="text" name="user__name" class="popup__input popup__user_name" placeholder="Ваше имя">   <!-- class="popup__input popup__input_type_name --->
+                  <p class="popup__input-marker popup_usname-marker"></p>
+                  <input type="text" name="about__oneself" class="popup__input popup__about_oneself" placeholder="О себе"> <!----class="popup__input popup__input_type_link-url-->
+                  <p class="popup__input-marker popup_oneself-marker"></p>
+                  <button type class="button popup__button user__popup_button" disabled> Сохранить </button>
+              </form>
+            </div>
+          </div>
+      </div>
+    
+      
+      <div class="popup popap-switch">
+        <div class=" popup-image" >
+            <img src="41450a58b889772276e7ab296ea75877.svg" alt="" class="popup__close image__popup_close">
+        </div>
+      </div>
+    <script src="main.560cdbf67a0e26b41e54.js?9ce4b3a450e3d1950fee"></script>
+</body>
+</html>
